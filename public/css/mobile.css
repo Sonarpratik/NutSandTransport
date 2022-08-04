@@ -1,0 +1,112 @@
+@media (max-width:829px) and (min-width:0px) {
+  .menu-btn{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+}
+  #search,.btn-sm{
+    display: none;
+  }
+  .navbar{
+    flex-direction: column;
+  }
+  .nav-list{
+    flex-direction: column;
+  }
+  .box-main{
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+  }
+  .firsthalf{
+    text-align: center;
+  }
+  .forwax{
+    
+    text-align: center;
+
+  }
+  .wax{
+    margin-top: 10px;
+  }
+  .firstsection{
+    padding-bottom: 20px;
+    height: 90vh;
+  }
+  .off-menu{
+   /* position:sticky; */
+ display: none;
+     
+    }
+
+    
+    .always{
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 10px;
+      flex-direction: column;
+
+        /* left: 0px?; */
+        /* transition: all 1s ease; */
+    /* margin-bottom:-100 ;         */
+    }
+ .right{
+    display: none;
+ }
+ .always li {
+    margin-top:20px ;
+ }
+
+ .for-bg{
+    padding-bottom: 10px;
+    padding-top: 10px;
+ }
+ .foot{
+    justify-content: center;
+ }
+ #drop0{
+    display: none;
+}
+.t1::before{
+    background-position: 0px 0px;
+
+}
+.t2::before{
+    background-position: 0px 0px;
+
+}
+.t3::before{
+    background-position: 0px 0px;
+
+}
+.t4::before{
+    background-position: 0px 0px;
+
+}
+
+.of-two{
+    flex-direction: column;
+    width: 95%;
+}
+.first-box{
+    width: 100%;
+    
+    }
+
+    .kop{
+        width: 90%;
+      
+    }
+    .wax-last{
+        text-align: center;
+        display: block;
+        margin: auto;
+
+        width: 40%;
+        margin-bottom: 10px;
+    }
+}

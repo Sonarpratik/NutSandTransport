@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+*,::before,::after{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+align-items:center ;
+position: sticky;
+top: 0px;
+width: 100%;
+background-color: rgb(31,21 ,21)!important;
+font-family: 'Mochiy Pop One', sans-serif;
+z-index: 84757;
+}
+.logo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rightNav{
+    width: 50%;
+    /* float: right; */
+text-align: right;
+margin-right: 2%;
+}
+.nav-list{
+    background-color: rgb(31,21 ,21);
+
+    width: 50%;
+    display: flex;
+    list-style: none;
+    /* padding: 20px 0px; */
+    /* justify-content: center; */
+    align-items: center;
+   
+    /* background-color: yellow; */
+}
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px ;
+    /* background-color: red; */
+}
+#search{
+    /* width: 100%; */
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 7px;
+    border: 1px solid black;
+    
+}
+.background{
+    background: rgba(0, 0, 0,0.7) url('/css/hotel.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.btn{
+    padding: 5px 7px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 1rem;
+/* font-family: 'Mochiy Pop One', sans-serif; */
+
+
+}
+body{
+    color: white;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.box-main{
+display: flex;
+width: 70%;
+justify-content: space-between;
+
+align-items: center;
+margin: auto;
+height: 80%;
+}
+
+
+.thumb:hover{
+    transition: all 0.6s ease-in-out;
+    transform: scale(1.05);
+}
+.firstsection{
+    /* font-size: 1rem; */
+    height: 84.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.secondhalf{
+    justify-content: center;
+    text-align: center;
+}
+.Bigtext{
+font-size: 2rem;
+margin-bottom:20px ;
+}
+.firsthalf{
+    text-align: left;
+    width: 70%;
+}
+.forwax{
+    margin-top: 20px;
+    text-align: left;
+
+}
+#search{
+    padding-left: 10px;
+}
+.wax{
+    color: white;
+    border: 2px solid white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 0px 2px;
+    cursor: pointer;
+    font-size: 1rem;
+ 
+    background: none;
+}
+.wax:hover{
+    transition: all 0.6s ease-in-out;
+    transform: scale(1.05);
+    background-color: rgb(31,21 ,21);
+}
+.wax a{
+    color: white;
+    text-decoration: none;
+}
+.btn-sm{
+    padding-top: 3px ;
+    padding-bottom: 3px ;
+}
+.Smalltext{
+    font-size: 0.9rem;
+}
+.section-travel{
+    height: 50vh;
+
+}
+.all{
+    position: absolute;
+    bottom: 70px;
+    background-color: red;
+
+}
+
+.BIG{
+
+    
+    position: relative;
+  
+}
+.t1::before{
+    content: ' ';
+    position: absolute;
+    /* top: 0px; */
+    left: 0px;
+    width: 100%;
+    height: 50vh;
+    background-image: url('/css/river23.jpg');
+    
+    background-size: cover;
+    background-position: 0px -236px;
+    z-index: -1;
+}
+.t3::before{
+    content: ' ';
+    position: absolute;
+    /* top: 0px; */
+    left: 0px;
+    width: 100%;
+    height: 50vh;
+    background-image: url('/css/newyork.jpg');
+    
+    background-size: cover;
+    background-position: 0px -236px;
+    z-index: -1;   
+}
+.t4::before{
+    content: ' ';
+    position: absolute;
+    /* top: 0px; */
+    left: 0px;
+    width: 100%;
+    height: 50vh;
+    background-image: url('/css/camping.jpg');
+    
+    background-size: cover;
+    background-position: 0px -336px;
+    z-index: -1;   
+}
+.BIG::after{
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50vh;
+    background-color: black;    
+    
+    opacity: 70%;
+    z-index: -1;
+    /* opacity: 50%; */
+}
+.headfor{
+    font-size: 2rem;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    background-color: rgb(31,21 ,21);
+
+}
+.t2::before{
+    content: ' ';
+    position: absolute;
+    /* top: 0px; */
+    left: 0px;
+    
+    width: 100%;
+    height: 50vh;
+    background-image: url('/css/road123.jpg');
+    
+    background-size: cover;
+    background-position: 0px -236px;
+    z-index: -1;
+}
+.foot{
+    
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0px;
+}
+.foot img{
+    cursor: pointer;
+    vertical-align: middle;
+}
+.for-bg{
+    background-color: rgb(31,21 ,21);
+
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+/* .right{
+    /* display: flex; 
+} */
+.Footer-Pa {
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.jpg-circle{
+    border-radius: 360px;
+}
+.drop{
+    display: block;
+    position: absolute;
+top: -400%;
+    /* padding: 0px 20px; */
+    transition: all 1s ease;
+    
+    width: 6rem;
+    z-index: -1;
+    text-align: center;
+}
+.crop{
+    top: 80%;
+    
+    transition: all 1s ease;
+    /* display: block; */
+    
+}
+.drop ul li{
+    padding: 10px 0px;
+    /* background-color: rgb(31,21 ,21); */
+    background-color: rgb(31,21 ,21);
+
+/* z-index: 23!important; */
+    list-style: none;
+}
+#drop1{
+    padding-top: 26px;
+
+}
+#drop0{
+    cursor: pointer;
+    padding: 0px 0px;
+    width: 6rem;
+    text-align: center;
+
+}
+li a:hover{
+/* text-decoration: underline; */
+/* transition: all 0.6s ease-in-out; */
+/* transform: scale(1.05); */
+color: antiquewhite;
+
+}
+#one{
+    bottom: 110px;
+}
+
+.menu-btn{
+    box-sizing: border-box;
+    position: absolute;
+    width: 30px;
+    display: flex;
+    display: none;
+    /* top: 20px; */
+    right: 20px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.always{
+    display: flex;
+
+}
+
+.orfan{
+    font-size: 2rem;
+}
+.burger{
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    left: 0px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(22,101,47,.2);
+    transition: all .5s ease-in-out;
+
+}
+.burger::before,
+.burger::after{
+content: ' ';
+left: 0px;
+position: absolute;
+width: 20px;
+height: 3px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(22,101,47,.2);
+transition: all .5s ease-in-out;
+}
+.burger:before{
+    transform: translateY( -7px);
+}
+.burger:after{
+    transform: translateY(7px);
+}
+
+/* animation */
+
+.menu-btn.open .burger{
+transform: translateX(-50px);
+background: transparent;
+box-shadow: none;
+} 
+
+.menu-btn.open .burger::before{
+    /* left: 2px; */
+transform: rotate(45deg) translate(32px ,-32px);
+} 
+.menu-btn.open .burger::after{
+    /* left: 2px; */
+transform: rotate(-45deg) translate(32px ,32px);
+} 
+
+.section-travel{
+    width: 90%;
+    margin: auto;
+    /* padding-top: 20px; */
+}
+.scam{
+    padding-top: 20px;
+}

@@ -1,0 +1,56 @@
+.of-two{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 80%;
+    margin: auto;
+}
+.first-box{
+width: 30vw;
+text-align: center;
+
+}
+.first-box1{
+text-align: center;
+
+}
+.first-box img{
+
+    vertical-align: middle;
+
+}
+.second-box{
+
+    text-align: center;
+    padding: 0px 20px ;
+    /* width: 50%; */
+}
+.buy-sell{
+    /* width: 60%; */
+    overflow: hidden;
+    box-shadow: 0px 0px 10px;
+    margin: 20px 20px;
+    border-radius: 20px;
+    /* background-color: rgb(31,21 ,21); */
+
+    border: 1px solid black;
+}
+.middle-btn{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.middle-btn button{
+    border-radius: 7px;
+    border: 1px solid black;
+    color: black;
+}
+.middle-btn button:hover{
+    background-color: rgb(0, 0, 0);
+color: white; 
+}
+.heading-up{
+    text-align: center;
+    margin: 20px 0px;
+}

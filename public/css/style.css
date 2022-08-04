@@ -1,0 +1,170 @@
+
+*,::before,::after{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+align-items:center ;
+position: sticky;
+top: 0px;
+width: 100%;
+background-color: rgb(31,21 ,21)!important;
+font-family: 'Mochiy Pop One', sans-serif;
+z-index: 84757;
+}
+.logo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rightNav{
+    width: 50%;
+    /* float: right; */
+text-align: right;
+margin-right: 2%;
+}
+.nav-list{
+    background-color: rgb(31,21 ,21);
+
+    width: 50%;
+    display: flex;
+    list-style: none;
+    /* padding: 20px 0px; */
+    /* justify-content: center; */
+    align-items: center;
+   
+    /* background-color: yellow; */
+}
+.nav-list li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px ;
+    /* background-color: red; */
+}
+#search{
+    /* width: 100%; */
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 7px;
+    border: 1px solid black;
+    
+}
+.background{
+    background: rgba(0, 0, 0,0.7) url('/hotel.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 85vh;
+}
+.btn{
+    padding: 5px 7px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 1rem;
+/* font-family: 'Mochiy Pop One', sans-serif; */
+
+
+}
+body{
+    color: white;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.box-main{
+display: flex;
+width: 70%;
+justify-content: space-between;
+
+align-items: center;
+margin: auto;
+height: 80%;
+}
+
+
+.thumb:hover{
+    transition: all 0.6s ease-in-out;
+    transform: scale(1.05);
+}
+.firstsection{
+    /* font-size: 1rem; */
+    height: 84.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.always{
+    display: flex;
+}
+.wax{
+    color: white;
+    background: none;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin: 0px 10px;
+    cursor: pointer;
+ box-shadow: 0px 0px 6px black;
+
+}
+.wax a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+ border-radius:7px ;
+
+ background-color: rgb(31,21 ,21);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 400px;
+}
+.our-box{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+}
+.inside{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+.inside input{
+ padding: 10px;
+ border-radius:7px ;
+ border: 1px solid black;
+ box-shadow: 0px 0px 6px black;
+}
+.sp-in{
+    margin-right: 10px;
+ text-shadow: 0px 0px 6px black;
+
+}
+
+.sm-fox{
+    position: absolute;
+    bottom: 20px;
+}
+.m-4{
+    text-align: center;
+    padding: 30px 0px;
+}

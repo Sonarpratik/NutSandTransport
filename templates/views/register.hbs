@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>header}}
+
+<body>
+    {{>navforindex}}
+<section class="background">
+
+
+    <h1 class="m-4">Register</h1>
+    <div class="container">
+        <form action="/register" method="POST" class="our-box">
+            <div class="inside">
+                <span class="sp-in"> Name</span><input type="text" class="form-control" required name="fullname" value=""
+                    placeholder="Enter Your Name">
+            </div>
+            <div class="inside">
+                <span class="sp-in"> Gmail</span><input type="email" class="form-control" required name="email" value=""
+                    placeholder="Enter Your Gmail">
+            </div>
+            <div class="inside">
+                <span class="sp-in"> Password</span><input type="password" class="form-control" required name="password" value=""
+                    placeholder="Enter Your Password">
+            </div>
+            <div class="inside">
+                <span class="sp-in"> Confirm</span><input type="password" class="form-control" required name="confirm" value=""
+                    placeholder="Re-enter Your Password">
+            </div>
+            {{!-- <button class="wax sm-fox">Submit</button> --}}
+            <input type="submit" class="wax sm-fox" value="Register">
+        </form>
+    </div>
+</section>
+{{>footer}}
+</body>
+
+</html>
