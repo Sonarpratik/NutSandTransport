@@ -9,10 +9,11 @@
   "name": "mernbackend",
   "version": "1.0.0",
   "main": "index.js",
+  "type":"CommonJS",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev":"nodemon src/app.js -e js,hbs",
-    "start":"node src/app.js"
+    "start":"node src/index.js"
   },
   "author": "",
   "license": "ISC",
